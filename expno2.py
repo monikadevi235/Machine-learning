@@ -31,3 +31,4 @@ for cid in customer_ids:
     print("Discount      :", discount)
     print("Payable Amt   :", final_amount)
     print("-" * 40)
+

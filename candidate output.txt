@@ -1,0 +1,20 @@
+ 
+After example 1
+S = ['BTech', 'Senior', 'Good', 'City']
+G = [['?', '?', '?', '?']]
+----------------------------------------
+After example 2
+S = ['BTech', '?', 'Good', 'City']
+G = [['?', '?', '?', '?']]
+----------------------------------------
+After example 3
+S = ['BTech', '?', 'Good', 'City']
+G = [['BTech', '?', '?', '?'], ['?', '?', 'Good', '?'], ['?', '?', '?', 'City']]
+----------------------------------------
+After example 4
+S = ['BTech', '?', 'Good', '?']
+G = [['BTech', '?', '?', '?'], ['?', '?', 'Good', '?']]
+----------------------------------------
+
+Final Specific Boundary: ['BTech', '?', 'Good', '?']
+Final General Boundary: [['BTech', '?', '?', '?'], ['?', '?', 'Good', '?']]

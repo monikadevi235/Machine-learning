@@ -1,0 +1,20 @@
+SHOPPING BILL REPORT
+----------------------------------------
+Customer ID   : C1
+Name          : Anu
+Total Amount  : 1200
+Discount      : 240.0
+Payable Amt   : 960.0
+----------------------------------------
+Customer ID   : C2
+Name          : Bala
+Total Amount  : 700
+Discount      : 70.0
+Payable Amt   : 630.0
+----------------------------------------
+Customer ID   : C3
+Name          : Chitra
+Total Amount  : 300
+Discount      : 0
+Payable Amt   : 300
+---------------------------------------

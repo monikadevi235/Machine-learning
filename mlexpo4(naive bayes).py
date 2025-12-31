@@ -35,3 +35,4 @@ test_vector = vectorizer.transform(test_sentence)
 # Step 4: Prediction
 prediction = model.predict(test_vector)
 print("Predicted Sentiment:", prediction[0])
+

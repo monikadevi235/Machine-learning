@@ -1,20 +1,51 @@
-SHOPPING BILL REPORT
-----------------------------------------
-Customer ID   : C1
-Name          : Anu
-Total Amount  : 1200
-Discount      : 240.0
-Payable Amt   : 960.0
-----------------------------------------
-Customer ID   : C2
-Name          : Bala
-Total Amount  : 700
-Discount      : 70.0
-Payable Amt   : 630.0
-----------------------------------------
-Customer ID   : C3
-Name          : Chitra
-Total Amount  : 300
-Discount      : 0
-Payable Amt   : 300
----------------------------------------
+Student ID: S101
+Name: Asha
+Average Score: 79.0
+Attendance: 92
+Study Hours: 8
+
+Student ID: S102
+Name: Ravi
+Average Score: 66.5
+Attendance: 85
+Study Hours: 5
+
+Student ID: S103
+Name: Meena
+Average Score: 89.0
+Attendance: 96
+Study Hours: 10
+
+Student ID: S104
+Name: Kiran
+Average Score: 56.5
+Attendance: 78
+Study Hours: 4
+
+Student ID: S101
+Name: Asha
+Average Score: 79.0
+Attendance: 92
+Study Hours: 8
+Academic Risk: Low Risk
+
+Student ID: S102
+Name: Ravi
+Average Score: 66.5
+Attendance: 85
+Study Hours: 5
+Academic Risk: Medium Risk
+
+Student ID: S103
+Name: Meena
+Average Score: 89.0
+Attendance: 96
+Study Hours: 10
+Academic Risk: Low Risk
+
+Student ID: S104
+Name: Kiran
+Average Score: 56.5
+Attendance: 78
+Study Hours: 4
+Academic Risk: High Risk

@@ -1,11 +1,39 @@
-S101 | Asha | Logins: 2 | Submissions: 0
-S102 | Ravi | Logins: 0 | Submissions: 1
-S103 | Meena | Logins: 1 | Submissions: 0
+=== REAL-TIME STUDENT ACTIVITY LOGGER ===
+Allowed activities: LOGIN, LOGOUT, SUBMIT_ASSIGNMENT
+Type 'stop' as Student ID to finish 
 
-ABNORMAL BEHAVIOR REPORT
-S101 has multiple logins without logout
-S103 has multiple logins without logout
+Student ID: s101
+Student Name: monika
+Activity: login
+❌ Error: Invalid Student ID
 
-DAILY ACTIVITY STATISTICS
-2025-03-10: 4 activities
-2025-03-11: 1 activities
+Student ID: S102
+Student Name: monika
+Activity: login
+✅ Activity logged successfully!
+
+Student ID: S103
+Student Name: monika
+Activity: submit_assignment
+✅ Activity logged successfully!
+
+Student ID: stop
+
+Logging completed.
+
+=== STUDENT ACTIVITY REPORT ===
+
+Student ID: S102
+Name: monika
+Total Logins: 1
+Total Submissions: 0
+
+Student ID: S103
+Name: monika
+Total Logins: 0
+Total Submissions: 1
+
+=== DAILY ACTIVITY STATISTICS ===
+2026-01-20 : 2 activities
+
+✅ Report generated successfully!

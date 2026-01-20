@@ -1,34 +1,27 @@
-customer_ids = ('C1', 'C2', 'C3')
 
-customers = {
-    'C1': {'name': 'Anu', 'amount': 1200},
-    'C2': {'name': 'Bala', 'amount': 700},
-    'C3': {'name': 'Chitra', 'amount': 300}
-}
-
-
-def calculate_discount(amount):
-    if amount >= 1000:
-        return amount * 0.20
-    elif amount >= 500:
-        return amount * 0.10
+student_ids = ('S101', 'S102', 'S103', 'S104')
+students = {
+    'S101': {'name': 'Asha', 'assignment': 78, 'test': 80, 'attendance': 92, 'hours': 8},
+    'S102': {'name': 'Ravi', 'assignment': 65, 'test': 68, 'attendance': 85, 'hours': 5},
+    'S103': {'name': 'Meena', 'assignment': 88, 'test': 90, 'attendance': 96, 'hours': 10},
+    'S104': {'name': 'Kiran', 'assignment': 55, 'test': 58, 'attendance': 78, 'hours': 4}}
+def calculate_average(assignment, test):
+    return (assignment + test) / 2
+def risk_level(avg, attendance, hours):
+    if avg >= 75 and attendance >= 90 and hours >= 7:
+        return "Low Risk"
+    elif avg >= 60 and attendance >= 80:
+        return "Medium Risk"
     else:
-        return 0
-
-
-print("SHOPPING BILL REPORT")
-print("-" * 40)
-
-for cid in customer_ids:
-    data = customers[cid]
-
-    discount = calculate_discount(data['amount'])
-    final_amount = data['amount'] - discount
-
-    print("Customer ID   :", cid)
-    print("Name          :", data['name'])
-    print("Total Amount  :", data['amount'])
-    print("Discount      :", discount)
-    print("Payable Amt   :", final_amount)
-    print("-" * 40)
+        return "High Risk"
+for sid in student_ids:
+    s = students[sid]
+    avg = calculate_average(s['assignment'], s['test'])
+    risk = risk_level(avg, s['attendance'], s['hours'])
+    print("\nStudent ID:", sid)
+    print("Name:", s['name'])
+    print("Average Score:", avg)
+    print("Attendance:", s['attendance'])
+    print("Study Hours:", s['hours'])
+print("Academic Risk:", risk)
 
